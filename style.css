@@ -32,12 +32,16 @@
     #footer {
         margin: 1.5%;
     }
+    #privacy-policy {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
 }
 
 /* medium screens */
 @media screen and (min-width: 769px) {
     #header {
-        margin-top: 5%;
+        margin-top: 7%;
         margin-left: 2.2%;
         margin-right: 2.2%;
         margin-bottom: 9%;
@@ -48,15 +52,15 @@
         margin-right: 2.2%;
     }
     #privacy-policy {
-        margin-left: 2.2%;
-        margin-right: 2.2%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 }
 
 /* large screens */
 @media screen and (min-width:1025px) {
     #header {
-        margin-top: 5%;
+        margin-top: 7%;
         margin-left: 2.85%;
         margin-right: 2.85%;
         margin-bottom: 8%;
@@ -67,8 +71,8 @@
         margin-right: 2.85%;
     }
     #privacy-policy {
-        margin-left: 2.85%;
-        margin-right: 2.85%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 }
 
