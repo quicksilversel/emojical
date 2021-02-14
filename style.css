@@ -102,6 +102,10 @@ h1 {
 	text-decoration: none;
 }
 
+#features img {
+    padding-bottom:5%;
+}
+
 #first-section {
     background-color: #FE4365;
     border-radius: 30px;
