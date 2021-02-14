@@ -86,9 +86,10 @@ h1 {
 
 #footer {
     margin-top:2%;
+    margin-bottom:2%;
     background-color: #e7e7e7;
     border-radius: 30px;
-    margin-bottom:2%;
+    height:300px;
 
 }
 
@@ -103,6 +104,23 @@ h1 {
     padding:5%;
 }
 
-navbar {
+.navbar {
     background: transparent;
+}
+
+/* faq */
+
+.faq_question {
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size:20px;
+}
+ 
+.faq_answer_container {
+    height: 0px;
+    overflow: hidden;
+    padding: 0px;
 }
