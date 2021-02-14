@@ -10,7 +10,7 @@
     align-items: center;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
     .col-sm-12 {
         margin: 5%;
         align-items: center;
@@ -20,6 +20,15 @@
         margin:2%;
     }
 }
+
+@media screen and (min-width: 769px) {
+    #header {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+}
+
+
 
 .card {
     border:none;
@@ -31,7 +40,7 @@ i{
 }
 
 h1 {
-    font-size: 65px;
+    font-size: 60px;
 }
 
 #button {
@@ -49,11 +58,6 @@ h1 {
 	background-color: black;
 	color: white;
 	text-decoration: none;
-}
-
-#header {
-    margin-left: 2.5%;
-    margin-right: 2.5%;
 }
 
 #first-section {
