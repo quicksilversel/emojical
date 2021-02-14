@@ -1,0 +1,108 @@
+.container {
+    font-family:'Roboto', sans-serif;
+}
+
+.row {
+    padding-top:2%;
+    padding-bottom:2%;
+    height:auto;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+    .col-sm-12 {
+        margin: 5%;
+        align-items: center;
+        justify-content: center;
+    }
+    #footer {
+        margin:2%;
+    }
+}
+
+.card {
+    border:none;
+    padding:5%;
+}
+
+i{
+	padding: 5px;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+#button {
+	width: 30%;
+	border: 2px solid black;
+	color: black;
+	padding: 1% 5%;
+	font-size: 15px;
+	font-family: "Yantramanav", sans-serif;
+	text-transform: uppercase;
+	transition: all 0.5s ease-in-out;
+}
+
+#button:hover {
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+
+#first-section {
+    background-color: #FE4365;
+    border-radius: 30px;
+}
+
+#first-section img {
+    height:500px;
+    width:auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-section {
+    background-color: #FC9D9A;
+    border-radius: 30px;
+}
+
+#third-section {
+    background-color: #faf3dd;
+    border-radius: 30px;
+}
+
+#fourth-section {
+    background-color: #b8f2e6;
+    border-radius: 30px;
+    
+}
+
+#fifth-section {
+    background-color: #aed9e0;
+    border-radius: 30px;
+}
+
+#footer {
+    margin-top:2%;
+    background-color: #e7e7e7;
+    border-radius: 30px;
+    margin-bottom:2%;
+
+}
+
+#credits a {
+    text-decoration: none;
+    color: black;
+}
+
+/* privacy page */
+
+#privacy {
+    padding:5%;
+}
+
+navbar {
+    background: transparent;
+}
